@@ -1634,6 +1634,37 @@ _You can enable the following settings in Xcode by running [this script](resourc
 
   </details>
 
+* <a id='functions-vs-properties'></a>(<a href='#functions-vs-properties'>link</a>) **Functions Vs Properties.**
+
+  <details>
+
+  #### Why?
+  In some cases functions with no arguments might be interchangeable with read-only properties. Although the semantics are similar, there are some stylistic conventions on when to prefer one to another. Prefer a property over a function when the underlying algorithm:
+
+  ```swift
+  // WRONG
+  func getScreenTitle() -> String { 
+    'Order'
+  }
+
+  // RIGHT
+  var screenTitle: String { 
+    'Order' 
+  }
+  ```
+
+  ### Call site differences
+  The Call site is also neater for this
+
+  ```swift
+  view.title = getScreenTitle()
+  
+  // VS
+
+  view.title = screenTitle
+  ```
+  </details>
+
 **[⬆ back to top](#table-of-contents)**
 
 ## File Organization
