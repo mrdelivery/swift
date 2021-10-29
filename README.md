@@ -1,4 +1,4 @@
-# Airbnb Swift Style Guide
+# Swift Style Guide
 
 ## Goals
 
