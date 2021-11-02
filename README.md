@@ -23,7 +23,6 @@ Note that brevity is not a primary goal. Code should be made more concise only i
 
 ## Table of Contents
 
-1. [Xcode Formatting](#xcode-formatting)
 1. [Naming](#naming)
 1. [Style](#style)
     1. [Functions](#functions)
@@ -34,27 +33,6 @@ Note that brevity is not a primary goal. Code should be made more concise only i
 1. [Objective-C Interoperability](#objective-c-interoperability)
 1. [Contributors](#contributors)
 1. [Amendments](#amendments)
-
-## Xcode Formatting
-
-_You can enable the following settings in Xcode by running [this script](resources/xcode_settings.bash), e.g. as part of a "Run Script" build phase._
-
-* <a id='column-width'></a>(<a href='#column-width'>link</a>) **Each line should have a maximum column width of 100 characters.** [![SwiftFormat: wrap](https://img.shields.io/badge/SwiftFormat-wrap-7B0051.svg)](https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#wrap)
-
-  <details>
-
-  #### Why?
-  Due to larger screen sizes, we have opted to choose a page guide greater than 80. 
-  
-  We currently only "strictly enforce" (lint / auto-format) a maximum column width of 130 characters to limit the cases where manual clean up is required for reformatted lines that fall slightly above the threshold.
-
-  </details>
-
-* <a id='spaces-over-tabs'></a>(<a href='#spaces-over-tabs'>link</a>) **Use 2 spaces to indent lines.** [![SwiftFormat: indent](https://img.shields.io/badge/SwiftFormat-indent-7B0051.svg)](https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#indent)
-
-* <a id='trailing-whitespace'></a>(<a href='#trailing-whitespace'>link</a>) **Trim trailing whitespace in all lines.** [![SwiftFormat: trailingSpace](https://img.shields.io/badge/SwiftFormat-trailingSpace-7B0051.svg)](https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#trailingSpace)
-
-**[⬆ back to top](#table-of-contents)**
 
 ## Naming
 
