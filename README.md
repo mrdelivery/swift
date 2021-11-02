@@ -31,8 +31,6 @@ Note that brevity is not a primary goal. Code should be made more concise only i
 1. [Patterns](#patterns)
 1. [File Organization](#file-organization)
 1. [Objective-C Interoperability](#objective-c-interoperability)
-1. [Contributors](#contributors)
-1. [Amendments](#amendments)
 
 ## Naming
 
